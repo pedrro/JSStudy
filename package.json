@@ -1,12 +1,9 @@
 {
   "name": "js-study",
   "version": "0.0.1",
-  "description": "I'am studying JS",
+  "description": "I'm studying JS",
   "main": ".",
   "dependencies": {
-    "jasmine": "^2.3.2"
-  },
-  "devDependencies": {
     "jasmine": "^2.3.2"
   },
   "scripts": {
