@@ -10,7 +10,8 @@
     "jasmine": "^2.3.2"
   },
   "scripts": {
-    "test": "./node_modules/jasmine/bin/jasmine.js"
+    "test": "./node_modules/jasmine/bin/jasmine.js",
+    "lint": "./node_modules/eslint/bin/eslint.js EJS/*.js spec/*.js"
   },
   "repository": {
     "type": "git",
