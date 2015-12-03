@@ -2,3 +2,19 @@
 
 Repository to practive the exercises of e-book: [Eloquent Javascript](http://eloquentjavascript.net/)
 
+## Dependencies
+node
+npm
+jasmine
+
+##Install
+
+```
+npm install
+```
+
+##Tests
+
+```
+npm test
+```
