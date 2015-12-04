@@ -8,15 +8,15 @@ beforeEach(function(){
 });
 
 it('should show Fizz', function(){
-  expect('Fizz').toBe(fizzbuzz.showFizz(3));
+  expect('Fizz').toBe(fizzbuzz.checkFizzBuzz(3));
 });
 
 it('should show Buzz', function(){
-  expect('Buzz').toBe(fizzbuzz.showBuzz(5));
+  expect('Buzz').toBe(fizzbuzz.checkFizzBuzz(5));
 });
 
 it('should show FizzBuzz', function(){
-  expect('FizzBuzz').toBe(fizzbuzz.showFizzBuzz(30));
+  expect('FizzBuzz').toBe(fizzbuzz.checkFizzBuzz(30));
 });
 
 });
