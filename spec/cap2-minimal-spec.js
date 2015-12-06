@@ -8,11 +8,11 @@ describe('Exercise - Minimal number - of cap2 of Eloquent JS', function () {
   });
 
   it('Should return 0 when numbers are equals', function(){
-    expect(0).toBe(minimal.min(1,1));
+    expect(minimal.min(1,1)).toBe(0);
   });
 
   it('Should return min number', function(){
-    expect(10).toBe(minimal.min(10,100));
+    expect(minimal.min(10,100)).toBe(10);
   });
 
 });

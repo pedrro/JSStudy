@@ -13,6 +13,6 @@ describe('Exercise - CHESSBOARD - of cap1 of Eloquent JS', function(){
     var evenRow = "# # # # ";
     var oddRow = " # # # #";
     var chessResult = '\n' + evenRow + '\n' + oddRow;
-    expect(chessResult).toEqual(chessboard.createBoard(chessSize));
+    expect(chessboard.createBoard(chessSize)).toEqual(chessResult);
   });
 });

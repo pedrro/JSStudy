@@ -8,15 +8,15 @@ describe('Exercise - FIZZBUZZ - of cap1 of Eloquent JS', function () {
 });
 
   it('should show Fizz', function () {
-  expect('Fizz').toBe(fizzbuzz.checkFizzBuzz(3));
+  expect(fizzbuzz.checkFizzBuzz(3)).toBe('Fizz');
 });
 
   it('should show Buzz', function () {
-  expect('Buzz').toBe(fizzbuzz.checkFizzBuzz(5));
+  expect(fizzbuzz.checkFizzBuzz(5)).toBe('Buzz');
 });
 
   it('should show FizzBuzz', function () {
-  expect('FizzBuzz').toBe(fizzbuzz.checkFizzBuzz(30));
+  expect(fizzbuzz.checkFizzBuzz(30)).toBe('FizzBuzz');
 });
 
 });

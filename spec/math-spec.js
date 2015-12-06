@@ -9,14 +9,14 @@ describe('Exercise - Math', function(){
   });
 
   it('Should return 1 when factorial is 0', function(){
-    expect(1).toBe(math.factorial(0));
+    expect(math.factorial(0)).toBe(1);
   });
 
   it('Should return 2 when factorial is 2', function(){
-    expect(2).toBe(math.factorial(2));
+    expect(math.factorial(2)).toBe(2);
   });
 
   it('Should return 120 when factorial is 5', function(){
-    expect(120).toBe(math.factorial(5));
+    expect(math.factorial(5)).toBe(120);
   });
 });
