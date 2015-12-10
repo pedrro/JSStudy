@@ -1,6 +1,6 @@
-var FizzBuzz = require('../EJS/cap1-fizzbuzz.js');
+var FizzBuzz = require('../EJS/cap2-fizzbuzz.js');
 
-describe('Exercise - FIZZBUZZ - of cap1 of Eloquent JS', function () {
+describe('Exercise - FIZZBUZZ - of cap2 of Eloquent JS', function () {
   var fizzbuzz;
 
   beforeEach(function () {

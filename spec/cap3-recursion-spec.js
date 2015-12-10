@@ -1,6 +1,6 @@
-var Recursion = require('../EJS/cap2-recursion.js');
+var Recursion = require('../EJS/cap3-recursion.js');
 
-describe('Exercise - Recursion - of cap2 of Eloquent JS', function(){
+describe('Exercise - Recursion - of cap3 of Eloquent JS', function(){
 var recursion;
 
  beforeEach(function(){

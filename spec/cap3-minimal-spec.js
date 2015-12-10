@@ -1,6 +1,6 @@
-var Minimal = require('../EJS/cap2-minimal.js');
+var Minimal = require('../EJS/cap3-minimal.js');
 
-describe('Exercise - Minimal number - of cap2 of Eloquent JS', function () {
+describe('Exercise - Minimal number - of cap3 of Eloquent JS', function () {
   var minimal;
 
   beforeEach(function () {

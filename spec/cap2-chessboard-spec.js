@@ -1,7 +1,7 @@
-var ChessBoard = require('../EJS/cap1-chessboard.js');
+var ChessBoard = require('../EJS/cap2-chessboard.js');
 
 
-describe('Exercise - CHESSBOARD - of cap1 of Eloquent JS', function(){
+describe('Exercise - CHESSBOARD - of cap2 of Eloquent JS', function(){
   var chessboard;
 
   beforeEach(function(){

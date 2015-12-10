@@ -1,6 +1,6 @@
-var Triangle = require('../EJS/cap1-triangle.js');
+var Triangle = require('../EJS/cap2-triangle.js');
 
-describe('Exercise - building a triangle - of cap1 of Eloquent JS', function(){
+describe('Exercise - building a triangle - of cap2 of Eloquent JS', function(){
 var triangle;
   beforeEach(function(){
     triangle = new Triangle();

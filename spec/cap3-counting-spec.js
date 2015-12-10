@@ -1,6 +1,6 @@
-var Counting = require('../EJS/cap2-counting.js');
+var Counting = require('../EJS/cap3-counting.js');
 
-describe('Exercise - Counting beans - EJS cap 2', function(){
+describe('Exercise - Counting beans - EJS cap 3', function(){
   var counting;
 
   beforeEach(function() {
