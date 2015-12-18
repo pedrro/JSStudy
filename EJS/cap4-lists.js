@@ -16,4 +16,10 @@ List.prototype.listToArray = function(list) {
   return array;
 }
 
+List.prototype.prepend = function(param1, param2) {
+  var array = [param1,param2];
+  var result = this.arrayToList(array);
+  return result;
+}
+
 module.exports= List;

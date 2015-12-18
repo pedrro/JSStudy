@@ -23,6 +23,13 @@ describe('Exercise - Lists - of cap4 of Eloquent JS', function() {
     var arrayTransformed = [1,2,3];
     expect(list.listToArray(listToBeTransformed))
     .toEqual(arrayTransformed);
-  })
+  });
+
+  it('Should return a new list using function prepend',function() {
+    var param1 = 1;
+    var param2 = 2;
+    var listResult = {value:1, rest:{value: 2, rest:null}};
+    expect(list.prepend(1,2)).toEqual(listResult);
+  });
 
 });
