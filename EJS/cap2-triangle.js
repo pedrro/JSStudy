@@ -1,24 +1,24 @@
 
-function Triangle(){
+function Triangle() {
 }
 
-Triangle.prototype.make = function(height){
+Triangle.prototype.make = function (height) {
   var triangle = '';
-  var count= 1;
+  var count = 1;
 
-  for(var i =1; i <= height;i++){
-    triangle += _repeat('#',i) + '\n';
+  for (var i = 1; i <= height;i++) {
+    triangle += _repeat('#', i) + '\n';
   }
-  
+
   return triangle;
 };
 
-var _repeat = function(char, index){
+var _repeat = function (char, index) {
   var result = '';
-  for(var i = 0; i < index; i++){
+  for (var i = 0; i < index; i++) {
     result += char;
   }
-    return result;
+  return result;
 };
 
 module.exports = Triangle;

@@ -1,4 +1,4 @@
-function Recursion(){}
+function Recursion() {}
 
 Recursion.prototype.isEven = function (num) {
   return (num <= 0) ?
