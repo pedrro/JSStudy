@@ -22,4 +22,9 @@ List.prototype.prepend = function(param1, param2) {
   return result;
 }
 
+List.prototype.nth = function(list, index) {
+  var array = this.listToArray(list);
+  return array[index];
+}
+
 module.exports= List;

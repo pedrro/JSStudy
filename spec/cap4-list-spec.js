@@ -32,4 +32,11 @@ describe('Exercise - Lists - of cap4 of Eloquent JS', function() {
     expect(list.prepend(1,2)).toEqual(listResult);
   });
 
+  it('Should return the value of index in list', function() {
+    var listParam = {value: 1, rest:
+               {value: 2, rest:
+               {value: 3, rest: null}}};
+    expect(list.nth(listParam,1)).toBe(2);
+  });
+
 });
