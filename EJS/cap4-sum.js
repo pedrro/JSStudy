@@ -10,8 +10,8 @@ Sum.prototype.range = function (start, end) {
 
 Sum.prototype.sumArray = function (array) {
   var sum = 0;
-  for (var i = 0; i < array.length; i++) {
-    sum += array[i];
+  for (var index in array) {
+    sum += array[index];
   }
   return sum;
 };

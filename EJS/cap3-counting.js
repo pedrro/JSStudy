@@ -2,8 +2,8 @@ function Counting() {}
 
 Counting.prototype.countBs = function (word) {
   var bs = 0;
-  for (var i = 0; i < word.length; i++) {
-    if (word.charAt(i) === 'B') {
+  for (var letter in word) {
+    if (word.charAt(letter) === 'B') {
       bs++;
     }
   }
@@ -12,11 +12,12 @@ Counting.prototype.countBs = function (word) {
 
 Counting.prototype.countChar = function (word, char) {
   var bs = 0;
-  for (var i = 0; i < word.length; i++) {
-    if (word.charAt(i) === char) {
+  for (var letter in word) {
+    if (word.charAt(letter) === char) {
       bs++;
     }
   }
+
   return bs;
 };
 
